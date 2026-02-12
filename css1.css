@@ -1,0 +1,49 @@
+header{
+height: 100px;
+    width: 100%;
+    background-color: rgb(217, 155, 218);
+}
+nav{
+    width: 35%;
+    height: auto;
+    float: left;
+    background-color: rgb(132, 246, 246);
+}
+main{
+    width: 65%;
+    height: auto;
+    float: left;
+    background-color:rgb(50, 200, 255);
+}
+footer{
+height: 70px;
+    width: 100%;
+    background-color: rgb(132, 52, 156);
+        clear: both;
+}
+#guzik{
+    background-color:rgb(203, 148, 255);
+    border-color: blueviolet;
+}
+
+.psyzdj {
+    height: 200px;
+    width: 200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+   nav, main {
+        width: 100%;
+        float: none;
+    }
+    main {
+        width: 100%;
+    }
+    #pieski{
+    width: 300px;
+    }
+}
